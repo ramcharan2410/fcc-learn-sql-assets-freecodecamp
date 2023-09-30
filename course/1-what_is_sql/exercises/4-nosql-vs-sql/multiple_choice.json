@@ -3,5 +3,6 @@
   "answers": [
     "different",
     "the same"
-  ]
+  ],
+  "correctAnswer":"different"
 }

@@ -3,5 +3,6 @@
   "answers": [
     "SQL, NoSQL",
     "NoSQL, SQL"
-  ]
+  ],
+  "correctAnswer":"SQL, NoSQL"
 }

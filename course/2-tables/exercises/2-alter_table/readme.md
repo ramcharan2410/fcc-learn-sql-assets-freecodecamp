@@ -1,8 +1,8 @@
 # Altering Tables
 
-We often need to alter our database schema without deleting it and re-creating it. Imagine if Twitter deleted its database each time it needed to add a feature, that would be a *disaster*! Your account and all your tweets would be wiped out on a daily basis.
+We often need to alter our database schema without deleting it and re-creating it. Imagine if Twitter deleted its database each time it needed to add a feature, that would be a _disaster_! Your account and all your tweets would be wiped out on a daily basis.
 
-Instead, we can use use the `ALTER TABLE` statement to make changes in place without deleting any data.
+Instead, we can use the `ALTER TABLE` statement to make changes in place without deleting any data.
 
 ## ALTER TABLE
 
@@ -43,4 +43,4 @@ We need to make some changes to the `people` table! At the moment, we have these
 
 1. Rename the table to `users`
 2. Rename the `handle` column to `username`.
-3. Add the `password` (TEXT) column. 
+3. Add the `password` (TEXT) column.

@@ -3,5 +3,7 @@
   "answers": [
     "Yes",
     "No"
-  ]
+  ],
+  "correctAnswer":"Yes",
+  "reason":"Database migrations and application code updates are closely linked in most software development projects to maintain data integrity, consistency, and the overall functionality of the application. Effective coordination between the two is essential to ensure that your software evolves smoothly over time."
 }

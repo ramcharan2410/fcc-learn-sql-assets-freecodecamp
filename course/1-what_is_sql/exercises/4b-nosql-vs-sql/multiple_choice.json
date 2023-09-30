@@ -4,5 +4,6 @@
     "SQL",
     "NoSQL",
     "Both"
-  ]
+  ],
+  "correctAnswer":"SQL"
 }
