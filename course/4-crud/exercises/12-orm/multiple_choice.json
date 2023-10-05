@@ -3,5 +3,7 @@
   "answers": [
     "Call methods and functions made available via the ORM's API",
     "Write a lot of raw SQL"
-  ]
+  ],
+  "correctAnswer":"Call methods and functions made available via the ORM's API",
+  "reason":"When using an ORM (Object-Relational Mapping), you typically call methods and functions made available via the ORM's API rather than writing a lot of raw SQL. The primary purpose of an ORM is to abstract away the low-level SQL queries and provide a higher-level, object-oriented interface for interacting with a relational database."
 }

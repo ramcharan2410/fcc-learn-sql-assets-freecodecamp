@@ -4,5 +4,6 @@
     "A GET request is made",
     "A SELECT statement is executed",
     "A JSON response is sent"
-  ]
+  ],
+  "correctAnswer":"A GET request is made"
 }
