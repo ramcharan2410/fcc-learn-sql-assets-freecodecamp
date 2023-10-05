@@ -9,7 +9,7 @@ SELECT product_name, quantity, shipment_status
     OR quantity BETWEEN 10 and 100;
 ```
 
-This query retrieves records where *either* the shipment_status `condition` *OR* the `quantity` condition are met.
+This query retrieves records where _either_ the shipment_status `condition` _OR_ the `quantity` condition are met.
 
 ## Order of operations
 
@@ -25,4 +25,4 @@ The laws have changed again! Now we need to see how many affected users meet thi
 
 > Users who are from the United States or Canada, and are under 18
 
-Write a query that retrieves the *count* of every user that matches the conditions above.
+Write a query that retrieves the _count_ of every user that matches the conditions above.
