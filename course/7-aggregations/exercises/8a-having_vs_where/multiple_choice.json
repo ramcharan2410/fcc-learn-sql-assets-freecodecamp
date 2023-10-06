@@ -3,5 +3,6 @@
   "answers": [
     "HAVING",
     "WHERE"
-  ]
+  ],
+  "correctAnswer":"HAVING"
 }
