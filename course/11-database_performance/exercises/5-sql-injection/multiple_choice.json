@@ -3,5 +3,7 @@
   "answers": [
     "True",
     "False"
-  ]
+  ],
+  "correctAnswer":"False",
+  "reason":"The statement is **False**. SQL injection is a security vulnerability that occurs when untrusted data from user inputs is directly incorporated into SQL queries without proper validation or sanitization. Using a modern SQL package or framework that provides features for automatically sanitizing user-provided values is a good practice, but it doesn't completely eliminate the need for developers to follow secure coding practices. Properly preventing SQL injection involves a combination of measures, including: 1. **Parameterized Queries:** Instead of embedding user inputs directly in SQL statements, you should use parameterized queries (prepared statements) provided by your SQL package. This approach separates SQL code from user inputs and automatically handles the sanitization. 2. **Input Validation:** You should validate and sanitize user inputs on the application side before passing them to the database. This adds an extra layer of security. 3. **Escaping User Inputs:** If you need to include user inputs directly in SQL queries, you should escape them to prevent malicious characters from being interpreted as SQL code. 4. **Least Privilege:** Ensure that your database user account has the least privilege necessary to perform the required tasks. This limits the potential damage that can be caused by a successful SQL injection attack. Using a modern SQL package can help with some aspects of preventing SQL injection, but it's not a standalone solution. Developers must still follow secure coding practices and be aware of the potential risks associated with user-provided data in SQL queries."
 }

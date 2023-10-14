@@ -3,5 +3,6 @@
   "answers": [
     "Normalized, Denormalize",
     "Denormalized, Normalize"
-  ]
+  ],
+  "correctAnswer":"Normalized, Denormalize"
 }
